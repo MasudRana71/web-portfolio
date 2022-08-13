@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35976195b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="cont">
+            <nav>
+                <img src="images/Capture.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="head-text">
+            <p> Computer Engineer... </p>
+            <h1>Hi, I'm <span> Masud </span><br>from Bangladesh.</h1>
+
+        </div>
+    </div>
+    <div id="about">
+
+        <div class="container">
+             <div class="row">
+                <div class="about-column1">
+                    <img src="images/Capture.JPG">
+                </div>
+                <div class="about-column2">
+                    <h1 class="subt">About Me</h1>
+                    <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vero neque similique quia modi fugiat deserunt et laudantium perspiciatis omnis ipsam, eius quis non, aliquam voluptate quisquam natus nemo deleniti.</p>
+                   <div class="tab-t">
+                    <p class="st act" onclick="opentab('skills')">Skills</p>
+                    <p class="st" onclick="opentab('experience')">Experience</p>
+                    <p class="st" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-con skill" id="skills">
+                    <ul>
+                        <li><span>AI</span><br>Specialis at AI</li>
+                        <li><span>App Developer</span><br>Specialis at app developping</li>
+                        <li><span>Data Mining</span><br>Specialis at Data mining</li>
+                    </ul>
+                   </div>
+                   <div class="tab-con exp" id="experience">
+                    <ul>
+                        <li><span>Microsoft</span><br>2020 - current</li>
+                        <li><span>Google</span><br>2018 - 2020 </li>
+                        <li><span>Facebook</span><br>2015 - 2018</li>
+                    </ul>
+                   </div>
+                   <div class="tab-con edu" id="education">
+                    <ul>
+                        <li><span>BSC</span><br>Green University of Bangladesh</li>
+                        <li><span>HSC</span><br>BAF Shaheen College</li>
+                        <li><span>SSC</span><br>Sadasadi High School</li>
+                    </ul>
+                   </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+
+
+    <div id="services">
+       <div class="container">
+        <h1 class="subt">My Services</h1>
+        <div class="slist">
+            
+            <div>
+                <i class="fa-solid fa-window-maximize"></i>
+                <h2>Develope APP</h2>
+                <p>You can hire me to develope your mobile app</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Ai</h2>
+                <p>You can hire me to build up an Ai bot</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Mining Data</h2>
+                <p>You can hire me to manage your data</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+        </div>
+        
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subt">My Work</h1>
+            <div class="wlist">
+                <div class="work">
+                    <img src="images/w1.jpeg" >
+                    <div class="layer">
+                        <h3>AI Bot</h3>
+                        <p>This is my work on Ai bot</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/2.jpeg" >
+                    <div class="layer">
+                        <h3>APP Development</h3>
+                        <p>This is my work on app development</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See more</a>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="cleft">
+                    <h1 class="subt">Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> tanzilmasud71@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 01521255133</p>
+                    <div class="sicon">
+                        <a href="https://web.facebook.com/me.masud.you"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/masud-rana-27bab8203/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/tanzil.masud/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="cright">
+                    <form>
+                        <input type="text" name ="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="cp">
+        <p>CopyrightⒸ Masud  <i class="fa-solid fa-pencil"></i></p>
+    </div>
+
+    <script>
+
+        var tabts = document.getElementsByClassName('st')
+        var tabcontents = document.getElementsByClassName('tab-con')
+        
+
+function opentab(tabname){
+
+    for (tabt of tabts ){
+        tabt.classList.remove("act");
+    }
+    for (tabcontent of tabcontents ){
+        tabcontent.classList.remove("skill");
+    }
+    event.currentTarget.classList.add("act")
+    document.getElementById(tabname).classList.add("skill");
+}
+
+    </script>
+</body>
+</html>
